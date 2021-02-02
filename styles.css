@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 1ex;
+  line-height: 2em;
+  align-items: center;
+}
+
+#status {
+  margin-left: 2ex; 
+  margin-right: 2ex; 
+}
+
+#map {
+  flex-grow: 1;
+}
+
+.controls button, .controls span, .controls > input {
+  margin-right: 1ex;
+}
