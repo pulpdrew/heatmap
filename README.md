@@ -8,7 +8,7 @@ View a map with TCX and GPX files overlayed on it.
 
 1. First, place all the .tcx and .gpx files in a folder within this directory called `input`.
 
-2. Next, get an API token from [Thunderforest](https://www.thunderforest.com/) by signing up for a free account. In `plot.js`, replace `{YOUR_API_TOKEN}` with your API token. Alternatively, you can use any other free or paid tile server, just be sure to replace `tileUrlTemplate` and `tileAttribution` in `plot.js`
+2. Next, get an API token from [Thunderforest](https://www.thunderforest.com/) by signing up for a free account. In `plot.js`, replace `{YOUR_API_KEY}` with your API token. Alternatively, you can use any other free or paid tile server, just be sure to replace `tileUrlTemplate` and `tileAttribution` in `plot.js`
 
 3. Then, ensure you have [cargo and rust installed](https://www.rust-lang.org/tools/install). Then, in this directory, run
     ```

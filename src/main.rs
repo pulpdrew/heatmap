@@ -15,7 +15,7 @@ use heatmap::{
 fn main() {
     // Extract the segments from each file in the input directory
     let mut all_paths: Vec<Path> = vec![];
-    for entry in fs::read_dir("input_bkp").expect("Failed to read './input' directory") {
+    for entry in fs::read_dir("input").expect("Failed to read './input' directory") {
         if let Ok(entry) = entry {
             match parse_entry(&entry) {
                 Ok(mut segments) => {
